@@ -1,0 +1,25 @@
+/* Estilos Generales para Secciones */
+section {
+  margin: 0 auto;
+  max-width: 1200px; /* Asegura que todas las secciones tengan el mismo ancho máximo */
+  padding: 50px 20px; /* Ajusta el padding según tus preferencias */
+}
+
+/* Estilos Específicos para la Sección con Imagen de Fondo */
+.section-with-background {
+  background-image: url('https://img.freepik.com/foto-gratis/paisaje-forestal_71767-127.jpg'); /* Cambia por la URL de tu imagen */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Ajusta el color de texto para mejorar contraste con la imagen de fondo */
+  background-color: red;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px; /* Ajusta el ancho máximo del contenido interior si es necesario */
+  margin: 0 auto; /* Centra el contenido dentro de la sección */
+}

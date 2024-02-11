@@ -1,0 +1,239 @@
+/* Estilos del header */
+.header-box {
+  background-color: black;
+  color: #fff;
+  padding: 10px 0;
+  font-family: Roboto, Open Sans, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  height: 100px;
+
+
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto; /* Centra el contenedor en la página */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centra verticalmente */
+  padding: 10px 0; /* Añade padding vertical si es necesario */
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ddd;
+}
+
+
+/* Left Section */
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinea el contenido a la izquierda */
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: white;
+}
+
+.company-logo {
+  width: 52px;
+  height: 52px;
+}
+
+/* Middle Section */
+.middle-section {
+  display: flex;
+  justify-content: center; /* Centra el contenido */
+  flex-grow: 1; /* Permite que esta sección crezca para ocupar el espacio restante */
+}
+
+.company-information{
+  font-size: 18px;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+
+
+}
+
+
+/* Right Section */
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+}
+
+.prediction-button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  background: linear-gradient(90deg, #FF3131, #F0802C);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.prediction-button:hover {
+  background: linear-gradient(90deg, #FF3131, #F0802C);
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+}
+
+@media screen and (max-width: 910px) {
+  
+  /* Oculta la sección del medio */
+  .middle-section {
+    display: none; /* Cambia a 'none' para ocultar */
+  }
+  
+  /* Oculta el botón de predicción */
+  .prediction-button {
+    display: none; /* Cambia a 'none' para ocultar */
+  }
+
+  /* Estilos para el icono de hamburguesa */
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px; /* Ancho del icono de hamburguesa */
+    height: 25px; /* Altura del icono de hamburguesa */
+    cursor: pointer;
+  }
+
+  .hamburger-icon span {
+    display: block;
+    height: 3px; /* Altura de cada barra del icono */
+    width: 100%; /* Ancho de las barras */
+    background-color: white; /* Color de las barras */
+  }
+
+
+  .header-box {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    font-family: Roboto, Open Sans, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    height: 80px;
+  
+  
+  }
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+  .company-name {
+    display: none;
+  }
+  
+  /* Oculta la sección del medio */
+  .middle-section {
+    display: none; /* Cambia a 'none' para ocultar */
+  }
+  
+  /* Oculta el botón de predicción */
+  .prediction-button {
+    display: none; /* Cambia a 'none' para ocultar */
+  }
+
+  /* Estilos para el icono de hamburguesa */
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25px; /* Ancho del icono de hamburguesa */
+    height: 13px; /* Altura del icono de hamburguesa */
+    cursor: pointer;
+  }
+
+  .hamburger-icon span {
+    display: block;
+    height: 1px; /* Altura de cada barra del icono */
+    width: 60%; /* Ancho de las barras */
+    background-color: white; /* Color de las barras */
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-container {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto; /* Centra el contenedor en la página */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente */
+    padding: 5px 0; /* Añade padding vertical si es necesario */
+    height: 10px;
+  }
+  
+
+  .header-box {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    font-family: Roboto, Open Sans, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    height: 30px;
+  
+  }
+
+  .company-logo {
+    width: 20px;
+    height: 20px;
+  }
+
+}
+
+

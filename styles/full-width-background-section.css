@@ -1,0 +1,1130 @@
+.full-width-background1 {
+  width: 100%;
+  height: 407px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: white;
+  position: relative;
+  overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+  margin-top: 100px;
+}
+
+
+
+.background-video2 {
+  position: absolute;
+  top: -50px; /* Sube el video para enfocar más en la parte superior */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.dark-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo oscuro semi-transparente */
+  z-index: 0;
+}
+
+
+
+.box2{
+  width: 1800px;
+  height: 300px;
+  max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: left;
+  height: 300px;
+  position: relative;
+  right: 0;
+  top: 20px;
+
+}
+.box{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: left;
+  height: 200px;
+  position: absolute;
+  left: 410px;
+}
+
+
+
+.title-image{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+.subtitle-image{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 4px;
+  color: white;
+}
+
+
+@media screen and (max-width: 1900px) {
+
+  .box2{
+    width: 1610px;
+    height: 300px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 20px;
+  
+  }
+  
+}
+
+@media screen and (max-width: 1800px) {
+
+  .box2{
+    width: 1510px;
+    height: 300px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 20px;
+  
+  }
+
+  
+  .box{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 370px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+  
+
+  
+}
+
+
+@media screen and (max-width: 1600px) {
+
+  .box2{
+    width: 1350px;
+    height: 300px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 20px;
+  }
+
+  .box{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+  
+}
+
+
+@media screen and (max-width: 1400px) {
+
+  .box2{
+    width: 1200px;
+    height: 300px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 20px;
+  
+  }
+
+  .box{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 270px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+  
+}
+
+@media screen and (max-width: 1300px) {
+
+  .box2{
+    width: 1100px;
+    height: 300px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 20px;
+  
+  }
+
+
+  .box{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 240px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+  .box2{
+    width: 960px;
+    height: 300px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 20px;
+  
+  }
+
+  .box{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 180px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+  
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  .box2{
+    width: 800px;
+    height: 300px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 0px;
+  
+  }
+
+  .box{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 140px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  .full-width-background1 {
+    width: 100%;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+    margin-top: 80px;
+  }
+  
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .box2{
+    width: 700px;
+    height: 300px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 0px;
+  
+  }
+
+  .box{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 90px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  /* Porque se sale el video */
+
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 480px;
+    z-index: -1;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 700px) {
+
+  
+  .box2{
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -20px;
+  
+  }
+
+  .box{
+    width: 270px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 90px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+
+  .background-video2 {
+    width: 100%; /* Abarca todo el ancho */
+    height: 407px; /* Ajusta la altura para que coincida con el contenedor */
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover; /* Cubre el área de contenido sin deformarse */
+    z-index: -1; /* Asegura que el video quede detrás del contenido */
+  }
+
+  .full-width-background1 {
+    width: 100%;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+  }
+  
+  
+  
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .box2{
+
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -30px;
+  
+  }
+
+  .box{
+    width: 280px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 90px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 610px;
+    z-index: -1;
+  }
+  
+  
+}
+
+@media screen and (max-width: 500px) {
+
+  .box2{
+
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -50px;
+  
+  }
+
+  .box{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 90px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 660px;
+    z-index: -1;
+  }
+  
+  
+}
+
+@media screen and (max-width: 400px) {
+
+  .box2{
+
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -40px;
+  
+  }
+
+  .box{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+  }
+
+  .full-width-background1 {
+    width: 100%;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+    margin-top: 30px;
+  }
+  
+  
+  
+}
+
+
+
+
+@media screen and (max-width: 300px) {
+
+  .box2{
+
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -40px;
+  
+  }
+
+  .box{
+    width: 180px;
+    height: 100px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: absolute;
+    left: 40px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+  }
+
+  .full-width-background1 {
+    width: 100%;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+    margin-top: 30px;
+  }
+  
+  
+  
+}
+
+
+
+
+@media screen and (max-width: 210px) {
+
+  .box2{
+
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -40px;
+  
+  }
+
+  .box{
+    width: 140px;
+    height: 100px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: absolute;
+    left: 20px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 6px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+  }
+
+  .full-width-background1 {
+    width: 100%;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+    margin-top: 30px;
+  }
+  
+  
+  
+}
+
+
+@media screen and (max-width: 170px) {
+
+  .box2{
+
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -80px;
+  
+  }
+
+  .box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: absolute;
+    left: 20px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 6px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+  }
+
+  .full-width-background1 {
+    width: 100%;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+    margin-top: 30px;
+  }
+  
+  
+  
+}
+
+
+
+@media screen and (max-width: 130px) {
+
+  .box2{
+
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -90px;
+  
+  }
+
+  .box{
+    width: 90px;
+    height: 100px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: absolute;
+    left: 10px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 4px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+  }
+
+  .full-width-background1 {
+    width: 100%;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+    margin-top: 30px;
+  }
+  
+  
+  
+}
+
+
+@media screen and (max-width: 110px) {
+
+  .box2{
+
+    width: 700px;
+    height: 200px;
+    max-width: 1800px; /* Alinea esto con el ancho máximo de las otras secciones */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    right: 0;
+    top: -95px;
+  
+  }
+
+  .box{
+    width: 60px;
+    height: 100px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: absolute;
+    left: 10px;
+  }
+  
+  
+  
+  .title-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 6px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle-image{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 3px;
+    margin: 0;
+    margin-top: 4px;
+    color: white;
+  }
+
+  .background-video2 {
+    position: absolute;
+    top: -50px; /* Sube el video para enfocar más en la parte superior */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+  }
+
+  .full-width-background1 {
+    width: 100%;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Oculta el video que sobrepase el tamaño del contenedor */
+    margin-top: 30px;
+  }
+  
+  
+  
+}

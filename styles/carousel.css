@@ -1,0 +1,731 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* title of the carousel*/
+.carousel-container {
+  background-color: #f2f2f2;
+  padding: 0;
+  margin: 0;
+}
+
+.companies-container{
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.companies-title{
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  color: black;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+
+/* --------------------------------------*/
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: #f2f2f2;
+  white-space: nowrap;
+  position: relative;
+  width: 100%; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #f2f2f2);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #f2f2f2);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 45s slide infinite linear;
+  width: 100%; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+}
+
+.logos-slide img {
+  height: 120px;
+  margin: 0 40px;
+}
+
+/* --------------------------------------*/
+
+/* Media query para tablets */
+@media screen and (max-width: 1830px) {
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 1620px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 120px;
+    margin: 0 25px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1750px) {
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 1515px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 120px;
+    margin: 0 20px;
+  }
+
+
+}
+
+@media screen and (max-width: 1600px) {
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 1350px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 120px;
+    margin: 0 5px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1400px) {
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 1210px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 100px;
+    margin: 0 10px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1300px) {
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 1100px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 100px;
+    margin: 0;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1100px) {
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 880px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 80px;
+    margin: 0 0;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  
+
+
+}
+
+
+@media screen and (max-width: 910px) {
+  .logos {
+    overflow: hidden;
+    padding: 40px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 810px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 70px;
+    margin: 0 5px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 130px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+
+}
+
+
+@media screen and (max-width: 780px) {
+  .logos {
+    overflow: hidden;
+    padding: 40px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 650px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 50px;
+    margin: 0 5px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+  .logos {
+    overflow: hidden;
+    padding: 30px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 600px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 50px;
+    margin: 0 5px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 630px) {
+  .logos {
+    overflow: hidden;
+    padding: 30px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 550px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 40px;
+    margin: 0 5px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .logos {
+    overflow: hidden;
+    padding: 20px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 490px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 40px;
+    margin: 0 5px;
+  }
+
+  .companies-title{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 550px) {
+  .logos {
+    overflow: hidden;
+    padding: 20px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 570px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 40px;
+    margin: 0 5px;
+  }
+
+  .companies-title{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .logos {
+    overflow: hidden;
+    padding: 20px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 405px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 30px;
+    margin: 0 5px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 70px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 420px) {
+  .logos {
+    overflow: hidden;
+    padding: 20px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 350px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 30px;
+    margin: 0 5px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 70px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 360px) {
+  .logos {
+    overflow: hidden;
+    padding: 5px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 305px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 20px;
+    margin: 0 5px;
+  }
+
+  .companies-title{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+
+}
+
+@media screen and (max-width: 300px) {
+  .logos {
+    overflow: hidden;
+    padding: 1px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 243px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 10px;
+    margin: 0 15px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 260px) {
+  .logos {
+    overflow: hidden;
+    padding: 1px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 220px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 10px;
+    margin: 0 10px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 210px) {
+  .logos {
+    overflow: hidden;
+    padding: 1px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 180px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 10px;
+    margin: 0 5px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 8px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 180px) {
+  .logos {
+    overflow: hidden;
+    padding: 1px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 150px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 10px;
+    margin: 0 5px;
+    object-fit: cover;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 6px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 130px) {
+  .logos {
+    overflow: hidden;
+    padding: 1px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 110px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 10px;
+    margin: 0 10px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 4px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 110px) {
+  .logos {
+    overflow: hidden;
+    padding: 1px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+    width: 90px; /* Hace que el contenedor de los logos use todo el ancho de .footer-container2 */
+  }
+
+  .logos-slide img {
+    height: 10px;
+    margin: 0 10px;
+  }
+
+  .logos:before,
+  .logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  }
+
+  .companies-title{
+    font-size: 4px;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+
+}

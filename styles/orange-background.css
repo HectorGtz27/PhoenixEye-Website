@@ -1,0 +1,157 @@
+.orange-background {
+  background: linear-gradient(180deg, #F0802C, #FF3131);
+  color: #fff;
+  padding: 2ch 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  text-align: left;
+}
+
+.orange-container {
+  width: 90%;
+  max-width: 1800px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 30px 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch; /* Cambiado de 'center' a 'stretch' para que los hijos se estiren */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.customer-box {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  border-color: #9ea5a4;
+  border-radius: 10px;
+  border-width: 4px;
+  border-style: solid;
+  padding: 20px;
+  width: 600px; /* Ancho fijo para todas las cajas */
+  flex-grow: 1; /* Permite que la caja crezca para ocupar el espacio disponible */
+  box-sizing: border-box;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+}
+
+.image-box {
+  margin-right: 10px;
+  padding-top: 4px;
+}
+
+.alfonso-durazo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.company-title2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.company-subtitle2 {
+  font-size: 22px;
+  margin: 0;
+  margin-top: 4px;
+  color: #d9d9d9;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.text-customer {
+  color: white;
+  font-size: 22px;
+  padding-top: 20px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.text-phoenix {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.link-learn2 {
+  color: white;
+  font-size: 24px;
+  padding-top: 30px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1600px) {
+  .text-phoenix {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .link-learn2 {
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+}
+
+
+@media (max-width: 1400px) {
+  .text-phoenix {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+  }
+  
+  .link-learn2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+}
+
+
+
+
+
+/* Media Query para pantallas menores a 768px */
+@media (max-width: 1008px) {
+  .row {
+    flex-direction: column; /* Cambia la disposición a vertical */
+    align-items: center; /* Alinea los elementos al centro */
+  }
+
+  .customer-box {
+    width: 90%; /* Ajusta el ancho para pantallas más pequeñas */
+    /* Elimina el margen lateral para que se vea mejor en pantallas pequeñas */
+    margin: 20px auto;
+    /* Opcional: Ajustar el padding si se desea más espacio */
+  }
+
+  /* Aquí puedes agregar más ajustes si necesitas modificar otros elementos */
+}
+
+

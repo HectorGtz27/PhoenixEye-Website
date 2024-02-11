@@ -1,0 +1,37 @@
+/* Reseteo básico de los estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+html, body{
+  scroll-behavior: smooth;
+
+
+}
+
+/* Estilos para el contenido principal */
+main {
+  padding-top: 0;
+  /*   padding: 20px 0;  si se quiere espacio entre el header y el main y tambien entre el main y el footer*/
+}
+
+section {
+  margin: 0 auto;
+  padding: 50px 20px; /* Ajusta el padding según tus preferencias */
+}
+
+
+.logos, .welcome-section, .about-section, .services-section, .contact-section, .section-with-background, .orange-container, .image-container{
+  width: 90%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+
+
